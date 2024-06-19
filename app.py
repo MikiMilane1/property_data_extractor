@@ -31,7 +31,7 @@ def app():
         print('Invalid input.')
         app()
 
-    lookback_period = int(input('Enter the lookback period in years and press ENTER./n'))
+    lookback_period = int(input('Enter the lookback period in years and press ENTER.\n'))
     input_parameters = {'location_type': location_type,
                         'location_name': location_name,
                         'lookback_period': lookback_period
